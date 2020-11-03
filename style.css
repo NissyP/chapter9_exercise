@@ -65,3 +65,41 @@ footer {
   background-color: #aaaaaa;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 5% 50px 5%;
+  }
+
+  .topic {
+    width: 90%;
+    margin: 0 0 20px 0;
+  }
+
+  .topic:last-child {
+    margin-bottom: 0;
+  }
+
+  .topic-image1 {
+    width: 100%;
+  }
+
+  .topic-image2 {
+    width: 100%;
+  }
+
+  .topic-image3 {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
